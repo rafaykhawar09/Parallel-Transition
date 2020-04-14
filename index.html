@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     
+     <title>Parallel Transition</title>
+
+     <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"/>
+     
+     <link rel="stylesheet" href="style.css">
+     <link rel="stylesheet" href="stylesheet.css">
+
+</head>
+
+<body>
+     <div class="container">
+          
+          <div class="slider"></div>
+
+          <div id="login-form" class="panel pos-left form-panel">
+               <h1 class="a-margin-base-bottom">Login</h1>
+
+               <div class="social-bar a-margin-base-bottom">
+                    <div class="social-icon fb">
+                         <i class="fab fa-facebook-f"></i>
+                    </div>
+                    <div class="social-icon g">
+                         <i class="fab fa-google-plus-g"></i>
+                    </div>
+                    <div class="social-icon in">
+                         <i class="fab fa-linkedin-in"></i>
+                    </div>
+               </div>
+
+               <p class="a-margin-base-bottom">or use your account</p>
+
+               <form action="#">
+                    <input type="text" id="login-email" placeholder="Email" class="a-margin-base-bottom">
+
+                    <input type="password" id="login-password" placeholder="Password" class="a-margin-base-bottom">
+
+                    <p class="a-margin-base-bottom">Forgot your password?</p>
+
+                    <input type="submit" value="LOGIN" class="a-margin-base-bottom">
+               </form>
+          </div>
+
+          <div id="sign-up-msg" class="panel pos-right msg-panel">
+               <h1>Hello, Friend!</h1>
+               <br>
+               <p>Enter your personal details and start journey with us</p>
+               <br>
+               <h4 class="switch-btn"><span class="glyph">&#171;</span> SIGN UP</h4>
+          </div>
+
+
+          <div id="login-msg" class="panel msg-panel login-msg-initial">
+               <h1>Welcome Back!</h1>
+               <br>
+               <p>To keep connected with us please login with your personal info</p>
+               <br>
+               <h4 class="switch-btn">LOGIN <span class="glyph">&#187;</span></h4>
+          </div>
+
+          <div id="sign-up-form" class="panel form-panel sign-up-form-initial ">
+               <h1 class="a-margin-base-bottom">Create Account</h1>
+
+               <div class="social-bar a-margin-base-bottom">
+                    <div class="social-icon fb">
+                         <i class="fab fa-facebook-f"></i>
+                    </div>
+                    <div class="social-icon g">
+                         <i class="fab fa-google-plus-g"></i>
+                    </div>
+                    <div class="social-icon in">
+                         <i class="fab fa-linkedin-in"></i>
+                    </div>
+               </div>
+
+               <p class="a-margin-base-bottom">or use your email for registration</p>
+
+               <form action="#">
+                    <input type="text" id="name" placeholder="Name" class="a-margin-base-bottom">
+
+                    <input type="text" id="create-email" placeholder="Email" class="a-margin-base-bottom">
+
+                    <input type="password" id="create-password" placeholder="Password" class="a-margin-base-bottom">
+
+                    <input type="submit" value="SIGN UP" class="a-margin-base-bottom">
+               </form>
+          </div>
+     </div>
+
+
+     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+     <script src="script.js"></script>
+</body>
+</html>
